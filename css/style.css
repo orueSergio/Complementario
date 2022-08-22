@@ -1,0 +1,115 @@
+#imgApp{
+height: 150px;
+width: 150px;
+}
+#imgMot{   
+height: 210px;
+width: 210px;
+}
+#imgHua{
+height: 170px;
+width: 170px;
+}
+#divMoto{
+height: 170px;
+width: 150px;
+}
+#divReparacion{
+height: 170px;
+width: 150px;
+}
+#divPaquete{
+height: 170px;
+width: 150px;
+}
+.iconoWhuas{
+position:fixed;
+bottom: 20px;
+right: 20px;
+width: 5%;
+}
+ #nav{
+    background-color: black;
+ }   
+ #color li a{
+    color:#8DC146 ;
+ }    
+ #tec{
+    color:#8DC146 ;
+ }  
+ #foot{
+   color: #8DC146;
+ }    
+ footer{
+    background-color: black;
+ }   
+   #benefi h2{
+   padding: 20px;
+   }
+   #benefi p{
+   padding: 5px;
+   }
+   #imgTarjetas{
+   height:35px;
+   }
+   .seccion{
+   display: grid; 
+   grid-template-rows: 30px 1fr;
+   grid-template-columns:1fr 1fr 1fr;
+   grid-template-areas:"seccionTitu seccionTitu seccionTitu"
+                       "seccionParra seccionParra seccionParra";
+   }
+   #seccionTitu{
+   grid-area: seccionTitu;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   }
+   
+   #seccionParra{
+   grid-area: seccionParra;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+   }
+   #seccionParra h2{
+    padding: 20px;
+   }
+   #seccionParra p{
+   padding: 5px;
+}
+   .tecnico{
+   display: grid;
+   grid-template-rows:1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-areas:"seccionUno seccionUno seccionUno";
+   }
+   #seccionUno{ 
+   grid-area: seccionUno;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 20px;
+   }
+   #servi h2{
+   padding: 20px;
+   }
+   #servi p{
+   padding: 5px;
+   } 
+   #servi h2{
+   padding: 20px;
+   }
+   #servi p{
+   padding: 5px;
+   } 
+   .navbar-toggler{
+   background-color: #8DC146;
+   }
+   main{
+   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,157,233,1) 100%);   
+   }
+   #aside{
+   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,157,233,1) 100%);
+   }
+  
